@@ -10,7 +10,7 @@ class DataIngestionConfig:
     unzip_dir: Path
 
 
-'''
+
 @dataclass(frozen=True)
 class DataValidationConfig:
     root_dir: Path
@@ -19,7 +19,7 @@ class DataValidationConfig:
     all_schema: dict
 
 
-
+'''
 @dataclass(frozen=True)
 class DataTransformationConfig:
     root_dir: Path

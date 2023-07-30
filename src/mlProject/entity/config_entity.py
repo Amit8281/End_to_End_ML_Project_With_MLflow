@@ -39,7 +39,7 @@ class ModelTrainerConfig:
 
 
 
-'''
+
 @dataclass(frozen=True)
 class ModelEvaluationConfig:
     root_dir: Path
@@ -49,4 +49,4 @@ class ModelEvaluationConfig:
     metric_file_name: Path
     target_column: str
     mlflow_uri: str
-    '''
+   

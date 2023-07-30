@@ -19,7 +19,7 @@ class DataValidationConfig:
     all_schema: dict
 
 
-'''
+
 @dataclass(frozen=True)
 class DataTransformationConfig:
     root_dir: Path
@@ -39,7 +39,7 @@ class ModelTrainerConfig:
 
 
 
-
+'''
 @dataclass(frozen=True)
 class ModelEvaluationConfig:
     root_dir: Path

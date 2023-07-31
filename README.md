@@ -26,11 +26,11 @@ https://github.com/Amit8281/End_to_End_ML_Project_With_MLflow
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n mlproj python=3.8 -y
+conda create -n venv python=3.8 -y
 ```
 
 ```bash
-conda activate mlproj
+conda activate venv
 ```
 
 

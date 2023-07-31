@@ -120,7 +120,7 @@ export MLFLOW_TRACKING_PASSWORD=b844c0dc9c9ea66bde1af4c2eec03888a95580d8
 	
 ## 4. Create EC2 machine (Ubuntu) 
 
-## 5. Open EC2 and Install docker in EC2 Machine:
+## 5. Open EC2 and Install docker in EC2 Machine: 
 	
 	
 	#optinal

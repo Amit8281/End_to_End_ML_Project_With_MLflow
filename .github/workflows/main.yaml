@@ -1,6 +1,11 @@
 name: workflow
-on: self-hosted
 
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
 
 permissions:
   id-token: write
